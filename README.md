@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
+- Webpack
 
 ## Live Demo (if available)
 
@@ -18,55 +19,38 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- JavaScript
+- Webpack
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- run `git clone https://github.com/Elisha-Tetteyfio/Leaderboard.git` in your terminal.
+- switch to the project directory
+- run `npm install`
+- run `npm run start`
+- Enjoy 🥂
 
 
+## Author
 
-## Authors
+👤 **Elisha Tetteyfio**
 
-👤 **Author1**
+- GitHub: [@Elisha-Tetteyfio](https://github.com/Elisha-Tetteyfio)
+- Twitter: [@Elisha](https://twitter.com/Nii_AlYasa)
+- LinkedIn: [Elisha Tetteyfio](www.linkedin.com/in/elisha-tetteyfio)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Elisha-Tetteyfio/Leaderboard/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
