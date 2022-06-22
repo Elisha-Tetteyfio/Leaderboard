@@ -1,0 +1,53 @@
+#main {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0;
+}
+
+#displayScores {
+  width: 50%;
+}
+
+#displayScoresHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#scores {
+  margin-left: 0;
+  padding-left: 0;
+  border: 1px solid black;
+}
+
+.score {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.score div {
+  margin: 0 10px;
+}
+
+#addScore {
+  width: 40%;
+}
+
+#addScore input {
+  width: 100%;
+  margin: 16px 0;
+  border: black 1px solid;
+  height: 25px;
+}
+
+#addScore div {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
