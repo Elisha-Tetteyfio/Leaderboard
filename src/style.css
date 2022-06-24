@@ -1,3 +1,22 @@
+body {
+  background-image: linear-gradient(#0d2d53, #980f21);
+  color: #ffff0f;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #b3b305;
+  color: #980f21;
+  height: 30px;
+  border: #ffff0f 2px groove;
+}
+
 #main {
   display: flex;
   width: 60%;
@@ -7,6 +26,7 @@
 
 h2 {
   margin: 0;
+  text-decoration: underline;
 }
 
 #displayScores {
@@ -22,13 +42,25 @@ h2 {
 #scores {
   margin-left: 0;
   padding-left: 0;
-  border: 1px solid black;
+  border: 1px groove black;
+  box-shadow: 1px 1px 15px 10px;
+}
+
+@keyframes ggg {
+  to {
+    background-color: #ffff0f;
+    color: #980f21;
+  }
+}
+
+#scores :hover {
+  animation: 2s ggg ease infinite;
 }
 
 .score {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 1px groove black;
   padding: 5px;
 }
 
@@ -44,8 +76,13 @@ h2 {
 #addScore input {
   width: 100%;
   margin: 16px 0;
-  border: black 1px solid;
+  border: #ffff0f 1px solid;
   height: 25px;
+  background-color: rgb(13, 45, 83, 0.1);
+}
+
+::placeholder {
+  color: rgb(255, 255, 15, 0.7);
 }
 
 #addScore form button {
