@@ -1,15 +1,15 @@
-import './style.css'; 
-import { addNewScore, getAllScores } from './modules/updateScores';
+import './style.css';
+import { addNewScore, getAllScores } from './modules/updateScores.js';
 
 const refreshButton = document.querySelector('#refresh');
 const addButton = document.querySelector('#addButton');
 
 getAllScores();
 
-addButton.addEventListener('click', (e) => {
-  addNewScore(); 
-})
+addButton.addEventListener('click', () => {
+  addNewScore();
+});
 
-refreshButton.addEventListener('click', (e) => {
-  getAllScores(); 
-})
+refreshButton.addEventListener('click', () => {
+  getAllScores();
+});
