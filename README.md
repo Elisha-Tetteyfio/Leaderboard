@@ -27,6 +27,9 @@ To get a local copy up and running follow these simple example steps.
 - run `npm run start`
 - Enjoy 🥂
 
+### Live demo
+[View project](https://elisha-tetteyfio.github.io/Leaderboard/)
+
 
 ## Author
 
